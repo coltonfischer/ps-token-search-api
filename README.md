@@ -1,6 +1,6 @@
-# URL Shortener Service
+# PS_TOKEN Search API
 
-> API to create short urls using Node, Express and MongoDB
+> API to search for PS_TOKEN cookies using Node and Express
 
 ## Quick Start
 
@@ -8,8 +8,8 @@
 # Install dependencies
 npm install
 
-# Edit the default.json file with your mongoURI and baseUrl
-# Use production.json in production env
+# copy .sample-env to .env
+Populate API_KEY and SEARCH_ENGINE_ID from [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview)
 
 # Run
 npm start
@@ -17,6 +17,6 @@ npm start
 
 ## Endpoint to create short url
 
-### POST api/url/shorten
+### POST /api/search
 
-{ "longUrl": "xxxx" }
+{ "query": "NUI_FRAMEWORK" }
