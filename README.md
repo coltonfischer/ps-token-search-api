@@ -9,13 +9,13 @@
 npm install
 
 # copy .sample-env to .env
-Populate API_KEY and SEARCH_ENGINE_ID from [Google Custom Search JSON API](https://developers.google.com/custom-search/v1/overview)
+Populate API_KEY and SEARCH_ENGINE_ID from Google Custom Search JSON API (https://developers.google.com/custom-search/v1/overview)
 
 # Run
 npm start
 ```
 
-## Endpoint to create short url
+## Endpoint to search for PS_TOKEN cookies
 
 ### POST /api/search
 
